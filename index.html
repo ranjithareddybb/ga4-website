@@ -1,23 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FWC90882EE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-FWC90882EE');
-</script>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GA4 Test Website</title>
-    <!-- GA4 Tracking Code will be added here -->
+    <title>Waste Management & DIYs</title>
+
+    <!-- Google Analytics 4 Tracking -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FWC90882EE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-FWC90882EE');
+    </script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #4CAF50;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My GA4 Test Website</h1>
-    <p>This is a simple site hosted on GitHub Pages.</p>
+    <header>
+        <h1>Welcome to Waste Wise!</h1>
+        <p>Learn how to manage waste & explore creative DIYs</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#recycling">Recycling Tips</a>
+        <a href="#diy">DIY Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>About Waste Wise</h2>
+            <p>We share knowledge about waste management and fun DIY projects to promote a sustainable lifestyle!</p>
+        </section>
+        <section id="recycling">
+            <h2>Recycling Tips</h2>
+            <p>Learn how to recycle different materials effectively and reduce waste.</p>
+        </section>
+        <section id="diy">
+            <h2>DIY Projects</h2>
+            <p>Discover creative ways to reuse and repurpose everyday waste items.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: contact@wastewise.com</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Waste Wise. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
+
